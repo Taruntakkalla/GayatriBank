@@ -1,4 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
+import logoImg from "../assets/CEO.png";
+import BoardMem from "../assets/BoardMem.png"
+import img from  "../assets/image.png"
 
 function DarkVariantExample() {
   return (
@@ -6,7 +9,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQUGG6IyDxGxTak-NCc1IBBhYl0cekf0RH9Q&s"
+          src={img}
           alt="First slide"
           style={{ height: '400px',objectFit:"contain" }} 
         />
@@ -17,7 +20,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGtpOCKvFr5CVsAL_fQqdhG9wFR_XtliXjtg&s"
+          src={logoImg}
           alt="Second slide"
           style={{ height: '400px',objectFit:"cover" }} 
         />
@@ -29,7 +32,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfNUy-huGFMRhrJPsmtQTya2g9QN596i-wKw&s "
+          src={BoardMem}
           alt="Third slide"
           style={{ height: '400px',objectFit:"cover" }} 
         />

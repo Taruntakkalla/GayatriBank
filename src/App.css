@@ -100,3 +100,17 @@
   background-color: #ED1C24;
   color: #ffffff;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+@keyframes moveRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
