@@ -1,8 +1,8 @@
 import { SearchIcon } from "lucide-react"
 
-import { useState } from "react"
+
 function Nav(){
-    const [font,IncrementFont] = useState<number>()
+   
 
     
         
@@ -30,14 +30,14 @@ function Nav(){
             </select>
         </div>
         <div>
-          <button onClick={() => IncrementFont(font + 1)}>A+</button>
+          <button>A+</button>
           <button>A</button>
           <button>A-</button>
         </div>
       </div>
       <div className="BtmNav">
          <div className="LinksSection">
-           <p style = {{ fontSize: `10+${font + 2}px` }} className="links" >Home</p>
+           <p  className="links" >Home</p>
              <a 
                 href="https://gayatri.bank.in/about-us/" 
                 target="_blank" 
