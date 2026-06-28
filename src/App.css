@@ -1,0 +1,102 @@
+.Heading{
+  color: red;
+  font-weight: bold;
+}
+.TopNav{
+  background-color: #2E3192;
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.LogoImg{
+  height: 96px;
+}
+.BtmNav{
+  background-color: #ED1C24;
+  height: 50px;
+  padding: 10px;
+}
+.LinksSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+.links{
+  color: #ffffff;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .LogoImg {
+    display: none;
+  }
+  .BtmNav{
+    display: none;
+  }
+  .SearchInput {
+    width: 70% !important;  /* Forces width to 90% of parent */
+    height: 40px !important; /* Fixed height */
+    border-radius: 10px;
+    font-size: 16px; /* Prevents zoom on iPhone */
+  }
+  .producstsList{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+  }
+}
+.MobileLogo{
+  height: auto;
+  width: auto;
+  padding: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .MobileLogo{
+  display: none;
+}
+  
+}
+
+.SearchInput{
+  width: 500px;
+  height: 50px;
+  border: 0px;
+  border-radius: 10px;
+
+}
+.search{
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+}
+.iconSearch{
+  padding-right: 5px;
+}
+
+.productsContainer{
+  background-color: #2E3192;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
+.producstsList{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+}
+.PrdctBtn1{
+  background-color: #ED1C24;
+  color: #ffffff;
+}
